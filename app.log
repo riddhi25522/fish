@@ -1,0 +1,94 @@
+2024-03-18 17:31:25,089 - WARNING:  * Debugger is active!
+2024-03-18 17:31:25,100 - INFO:  * Debugger PIN: 985-888-686
+2024-03-18 18:30:20,698 - ERROR: An error occurred while loading the model: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2024-03-18 18:30:20,711 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.37:5000
+2024-03-18 18:30:20,712 - INFO: [33mPress CTRL+C to quit[0m
+2024-03-18 23:19:09,386 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.24:5000
+2024-03-18 23:19:09,387 - INFO: [33mPress CTRL+C to quit[0m
+2024-03-18 23:19:22,465 - INFO: Rendering index.html
+2024-03-18 23:19:22,492 - INFO: 127.0.0.1 - - [18/Mar/2024 23:19:22] "GET / HTTP/1.1" 200 -
+2024-03-18 23:19:22,661 - INFO: 127.0.0.1 - - [18/Mar/2024 23:19:22] "GET /static/styles.css HTTP/1.1" 200 -
+2024-03-18 23:19:22,663 - INFO: 127.0.0.1 - - [18/Mar/2024 23:19:22] "GET /static/script.js HTTP/1.1" 200 -
+2024-03-18 23:19:44,006 - INFO: Prediction: [8.0013]
+2024-03-18 23:19:44,007 - INFO: 127.0.0.1 - - [18/Mar/2024 23:19:44] "POST /predict HTTP/1.1" 200 -
+2024-03-18 23:24:03,569 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.24:5000
+2024-03-18 23:24:03,570 - INFO: [33mPress CTRL+C to quit[0m
+2024-03-18 23:24:08,481 - INFO: Rendering index.html
+2024-03-18 23:24:08,496 - INFO: 127.0.0.1 - - [18/Mar/2024 23:24:08] "GET / HTTP/1.1" 200 -
+2024-03-18 23:24:08,692 - INFO: 127.0.0.1 - - [18/Mar/2024 23:24:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:24:08,694 - INFO: 127.0.0.1 - - [18/Mar/2024 23:24:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:25:45,176 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.24:5000
+2024-03-18 23:25:45,177 - INFO: [33mPress CTRL+C to quit[0m
+2024-03-18 23:25:49,426 - INFO: Rendering index.html
+2024-03-18 23:25:49,439 - INFO: 127.0.0.1 - - [18/Mar/2024 23:25:49] "GET / HTTP/1.1" 200 -
+2024-03-18 23:25:49,644 - INFO: 127.0.0.1 - - [18/Mar/2024 23:25:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:25:49,648 - INFO: 127.0.0.1 - - [18/Mar/2024 23:25:49] "GET /static/styles.css HTTP/1.1" 200 -
+2024-03-18 23:25:52,621 - INFO: Rendering index.html
+2024-03-18 23:25:52,622 - INFO: 127.0.0.1 - - [18/Mar/2024 23:25:52] "GET / HTTP/1.1" 200 -
+2024-03-18 23:25:52,654 - INFO: 127.0.0.1 - - [18/Mar/2024 23:25:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:25:52,656 - INFO: 127.0.0.1 - - [18/Mar/2024 23:25:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:25:53,515 - INFO: Rendering index.html
+2024-03-18 23:25:53,516 - INFO: 127.0.0.1 - - [18/Mar/2024 23:25:53] "GET / HTTP/1.1" 200 -
+2024-03-18 23:25:53,542 - INFO: 127.0.0.1 - - [18/Mar/2024 23:25:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:25:53,546 - INFO: 127.0.0.1 - - [18/Mar/2024 23:25:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:27:08,210 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.24:5000
+2024-03-18 23:27:08,212 - INFO: [33mPress CTRL+C to quit[0m
+2024-03-18 23:27:21,106 - INFO: Rendering index.html
+2024-03-18 23:27:21,121 - INFO: 127.0.0.1 - - [18/Mar/2024 23:27:21] "GET / HTTP/1.1" 200 -
+2024-03-18 23:27:21,320 - INFO: 127.0.0.1 - - [18/Mar/2024 23:27:21] "GET /static/styles.css HTTP/1.1" 200 -
+2024-03-18 23:27:21,324 - INFO: 127.0.0.1 - - [18/Mar/2024 23:27:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:27:22,068 - INFO: Rendering index.html
+2024-03-18 23:27:22,070 - INFO: 127.0.0.1 - - [18/Mar/2024 23:27:22] "GET / HTTP/1.1" 200 -
+2024-03-18 23:27:22,098 - INFO: 127.0.0.1 - - [18/Mar/2024 23:27:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:27:22,101 - INFO: 127.0.0.1 - - [18/Mar/2024 23:27:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:36:04,518 - INFO: Rendering index.html
+2024-03-18 23:36:04,519 - INFO: 127.0.0.1 - - [18/Mar/2024 23:36:04] "GET / HTTP/1.1" 200 -
+2024-03-18 23:36:04,552 - INFO: 127.0.0.1 - - [18/Mar/2024 23:36:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:36:04,554 - INFO: 127.0.0.1 - - [18/Mar/2024 23:36:04] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:36:05,849 - INFO: Rendering index.html
+2024-03-18 23:36:05,850 - INFO: 127.0.0.1 - - [18/Mar/2024 23:36:05] "GET / HTTP/1.1" 200 -
+2024-03-18 23:36:05,878 - INFO: 127.0.0.1 - - [18/Mar/2024 23:36:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:36:05,879 - INFO: 127.0.0.1 - - [18/Mar/2024 23:36:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:39:47,375 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.24:5000
+2024-03-18 23:39:47,377 - INFO: [33mPress CTRL+C to quit[0m
+2024-03-18 23:39:53,866 - INFO: Rendering index.html
+2024-03-18 23:39:53,883 - INFO: 127.0.0.1 - - [18/Mar/2024 23:39:53] "GET / HTTP/1.1" 200 -
+2024-03-18 23:39:53,980 - INFO: 127.0.0.1 - - [18/Mar/2024 23:39:53] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2024-03-18 23:39:54,088 - INFO: 127.0.0.1 - - [18/Mar/2024 23:39:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:39:54,095 - INFO: 127.0.0.1 - - [18/Mar/2024 23:39:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:43:37,144 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.24:5000
+2024-03-18 23:43:37,147 - INFO: [33mPress CTRL+C to quit[0m
+2024-03-18 23:43:44,936 - INFO: Rendering index.html
+2024-03-18 23:43:44,941 - INFO: 127.0.0.1 - - [18/Mar/2024 23:43:44] "GET / HTTP/1.1" 200 -
+2024-03-18 23:43:45,103 - INFO: 127.0.0.1 - - [18/Mar/2024 23:43:45] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2024-03-18 23:43:45,111 - INFO: 127.0.0.1 - - [18/Mar/2024 23:43:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:43:45,117 - INFO: 127.0.0.1 - - [18/Mar/2024 23:43:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:44:41,125 - INFO: 127.0.0.1 - - [18/Mar/2024 23:44:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:45:44,847 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.24:5000
+2024-03-18 23:45:44,848 - INFO: [33mPress CTRL+C to quit[0m
